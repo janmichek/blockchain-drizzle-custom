@@ -1,6 +1,13 @@
-### Drizzle template
-Predefined project with Truffle & Drizzle
-Good starting point for another projects.
+### Drizzle Custom Components
+
+This demo is using custom Drizzle components using Drizzle store and events.
+It also fires flash message on data changed
+
+https://www.youtube.com/watch?v=xyoztqeYd6U
+and
+https://www.youtube.com/watch?v=ApJwXfWKl7Q&t=573s
+
+This project is based upon premade template https://github.com/janmichek/drizzle-template
 
 ## Dependencies
 - Ganache https://www.trufflesuite.com/ganache

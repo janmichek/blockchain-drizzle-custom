@@ -1,6 +1,17 @@
 <template>
   <div v-if="isDrizzleInitialized" id="app">
-    <div>Hello world</div>
+    <section>
+      <h2>Show Accounts</h2>
+      <custom-account/>
+    </section>
+
+    <section>
+      <h2>Custom Storage</h2>
+      <custom-storage/>
+      <custom-storage-form/>
+    </section>
+
+    <flash-message/>
   </div>
   <div v-else>
     Loading
@@ -9,9 +20,14 @@
 
 <script>
   import { mapGetters } from 'vuex'
+  import CustomAccount from "./CustomAccount"
+  import CustomStorage from "./CustomStorage"
+  import CustomStorageForm from "./CustomStorageForm"
+  import FlashMessage from "./FlashMessage"
 
   export default {
     name: 'app',
+    components: { FlashMessage, CustomStorageForm, CustomStorage, CustomAccount },
     computed: mapGetters('drizzle', ['isDrizzleInitialized']),
   }
 </script>
