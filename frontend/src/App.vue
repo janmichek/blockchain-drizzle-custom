@@ -1,7 +1,7 @@
 <template>
   <div v-if="isDrizzleInitialized" id="app">
     <section>
-      <h2>Show Accounts</h2>
+      <h2>Account</h2>
       <custom-account/>
     </section>
 
@@ -36,7 +36,6 @@
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     text-align: center;
-    color: #2c3e50;
     margin-top: 60px;
   }
 </style>
