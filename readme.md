@@ -3,9 +3,9 @@ This demo is using custom Drizzle components using Drizzle store and events.
 It also fires flash message when data changed.
 
 This repository is inspired by tutorial:
-https://www.youtube.com/watch?v=xyoztqeYd6U
+https://www.youtube.com/watch?v=ApJwXfWKl7Q&t
 and
-https://www.youtube.com/watch?v=ApJwXfWKl7Q&t=573s
+https://www.youtube.com/watch?v=xyoztqeYd6U
 
 ## Dependencies
 - Ganache https://www.trufflesuite.com/ganache
