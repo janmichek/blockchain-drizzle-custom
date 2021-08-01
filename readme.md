@@ -1,8 +1,8 @@
 ### Drizzle Custom Components
-This demo is using custom Drizzle components using Drizzle store and events.
+This demo implements custom Drizzle components using Drizzle store and events.
 It also fires flash message when data changed.
 
-This repository is inspired by tutorial:
+This repository is inspired by following tutorials:
 https://www.youtube.com/watch?v=ApJwXfWKl7Q&t
 and
 https://www.youtube.com/watch?v=xyoztqeYd6U
@@ -22,11 +22,11 @@ https://www.youtube.com/watch?v=xyoztqeYd6U
 
 ### Deploy contracts to blockchain
 
+Run Ganache with Quickstart Workspace
+
 ```yarn deploy```
 
 ## Run project
-
-Run Ganache with Quickstart Workspace
 
 ```cd frontend```
 
