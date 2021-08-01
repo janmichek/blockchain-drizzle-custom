@@ -1,9 +1,9 @@
 <template>
   <div v-if="isDrizzleInitialized" id="app">
-    <section>
-      <h2>Account</h2>
-      <custom-account/>
-    </section>
+    <header>
+      <h1>Custom Drizzle DAPP</h1>
+      Account: <custom-account/>
+    </header>
 
     <section>
       <h2>Custom Storage</h2>
@@ -35,7 +35,5 @@
 <style>
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    text-align: center;
-    margin-top: 60px;
   }
 </style>
